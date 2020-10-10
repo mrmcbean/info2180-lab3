@@ -8,7 +8,7 @@ function Main(){
     
     var divide=document.querySelector('#board');
     var status=document.querySelector('#status');
-    var move = "X";// "X" always starts first
+    var move = "O";// "O" always starts first
     
     //The below code determines the possible combinations for a winner to be chosen
     var combinationForWin = new Array(
@@ -36,7 +36,7 @@ function Main(){
         console.log()
     
         }
-        
+
         else{
     
     if (move==="X"||move==="x"){
