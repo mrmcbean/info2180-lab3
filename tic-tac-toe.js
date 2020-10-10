@@ -3,12 +3,12 @@
 function Main(){
 
 	
-    var board = Array(9); // Squares on the board
+    var board = Array(9); //Squares on the board
     var button = document.querySelector("button");
     
     var divide=document.querySelector('#board');
     var status=document.querySelector('#status');
-    var move = "O";// "O" always starts first
+    var move = "O"; // "O" always starts first
     
     //The below code determines the possible combinations for a winner to be chosen
     var combinationForWin = new Array(
@@ -65,10 +65,11 @@ function Main(){
             
         move="X";
     
-    }
+        }
         
     
-    }	
+            }
+
     }
     // This block of code changes the look of each square when the mouse hovers over it (Exercise 3)
     divide.children[i].addEventListener('mouseover',function(){
