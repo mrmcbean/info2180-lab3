@@ -85,10 +85,8 @@ function Main(){
     
     });
     
-    
-    
-            
-    }// end of for loop 
+           
+    }
     
      
      button.onclick= function(){
