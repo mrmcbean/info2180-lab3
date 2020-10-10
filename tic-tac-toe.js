@@ -36,9 +36,7 @@ function Main(){
         console.log()
     
         }
-    
-    
-    
+        
         else{
     
     if (move==="X"||move==="x"){
