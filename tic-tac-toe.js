@@ -32,7 +32,7 @@ function Main(){
     divide.children[i].onclick=function(){
         
         
-        if(fair(this.id,board)){
+        if(fair(this.id,board)){ //fairplay
         console.log()
     
         }
@@ -109,4 +109,5 @@ function Main(){
     
     
     }
+
     document.addEventListener("DOMContentLoaded",Main);
