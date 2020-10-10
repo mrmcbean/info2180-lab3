@@ -41,8 +41,6 @@ function Main(){
     
         else{
     
-    
-    
     if (move==="X"||move==="x"){
             board[this.id]="X";
             this.innerHTML = "<strong>X<strong>";
@@ -72,7 +70,6 @@ function Main(){
     }
         
     
-    
     }	
     }
     // This block of code changes the look of each square when the mouse hovers over it (Exercise 3)
@@ -83,8 +80,7 @@ function Main(){
     divide.children[i].addEventListener('mouseout',function(){
     this.classList.remove('hover');
     
-    });
-    
+    }); 
            
     }
     
@@ -97,10 +93,8 @@ function Main(){
     function win(brd,CFW,move){
         for(let i=0; i<CFW.length; i++){
             if (brd[CFW[i][0]]===move && brd[CFW[i][1]]===move && brd[CFW[i][2]]=== move){
-                
                 return true;
                 
-    
         }
     }
     }
